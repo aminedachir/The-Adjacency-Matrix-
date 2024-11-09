@@ -17,6 +17,9 @@ int main(){
         }
         printf("\n");
     }
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 474c149f9ae33b6eda2b39fb539fa270a71bca49
 }
