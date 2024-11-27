@@ -48,7 +48,7 @@ bool is_compeleted_graph(int n,int m,int **arr){
             d++;
         }
     }
-    if (m == n){
+    if (d == n){
         return true ;
     }
     else {
