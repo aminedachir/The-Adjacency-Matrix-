@@ -1,5 +1,5 @@
 0 1 1 
 1 0 1 
 1 1 0 
-Enter the type of graph : <-----------Its a cycle graph----------->
-Enter the type of graph : <---------Its a compeleted graph--------->
+<-----------Its a cycle graph----------->
+<---------Its a compeleted graph--------->

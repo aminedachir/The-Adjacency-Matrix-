@@ -18,7 +18,7 @@ int main(){
     }
     registre_graph(n,m,arr);
     print_graph(n,m,arr);
-    printf("Enter the type of graph : \n");
+    //printf("Enter the type of graph : \n");
     scanf("%s",graph_type);
     int result0 = strcmp(type_one,graph_type);
     if (result0 == 0){
@@ -29,7 +29,7 @@ int main(){
             printf("<-----------Its Not a cycle graph----------->\n");
         }
     }
-    printf("Enter the type of graph : \n");
+    //printf("Enter the type of graph : \n");
     scanf("%s",graph_type);
     int result1 = strcmp(type_two,graph_type);
     if (result1 == 0){
