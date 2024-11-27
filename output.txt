@@ -1,31 +1,5 @@
-Give me the first line in your matrix : Give me the first line in your matrix : Give me the first line in your matrix : Give me the first line in your matrix : Give me the first line in your matrix :    -1844783360   32746   -1845058240   32746   -1844784800   32746
-   32746   -1566414591   32767   -1844786712   32746   0
-   0   0   0   0   0   0
-   0   0   0   -1055288576   1495175374   -1564573144
-   -1564573144   32767   -1566414112   32767   419905728   22006
-Give me the first line in your matrix : Give me the first line in your matrix : Give me the first line in your matrix : Give me the first line in your matrix : Give me the first line in your matrix : Its Not a cycle graph
-si{Vertice 1, Vertice 1} in E ecrire 1 sinon 0 : 
-si{Vertice 1, Vertice 2} in E ecrire 1 sinon 0 : 
-si{Vertice 1, Vertice 3} in E ecrire 1 sinon 0 : 
-si{Vertice 1, Vertice 4} in E ecrire 1 sinon 0 : 
-si{Vertice 1, Vertice 5} in E ecrire 1 sinon 0 : 
-si{Vertice 2, Vertice 1} in E ecrire 1 sinon 0 : 
-si{Vertice 2, Vertice 2} in E ecrire 1 sinon 0 : 
-si{Vertice 2, Vertice 3} in E ecrire 1 sinon 0 : 
-si{Vertice 2, Vertice 4} in E ecrire 1 sinon 0 : 
-si{Vertice 2, Vertice 5} in E ecrire 1 sinon 0 : 
-si{Vertice 3, Vertice 1} in E ecrire 1 sinon 0 : 
-si{Vertice 3, Vertice 2} in E ecrire 1 sinon 0 : 
-si{Vertice 3, Vertice 3} in E ecrire 1 sinon 0 : 
-si{Vertice 3, Vertice 4} in E ecrire 1 sinon 0 : 
-si{Vertice 3, Vertice 5} in E ecrire 1 sinon 0 : 
-si{Vertice 4, Vertice 1} in E ecrire 1 sinon 0 : 
-si{Vertice 4, Vertice 2} in E ecrire 1 sinon 0 : 
-si{Vertice 4, Vertice 3} in E ecrire 1 sinon 0 : 
-si{Vertice 4, Vertice 4} in E ecrire 1 sinon 0 : 
-si{Vertice 4, Vertice 5} in E ecrire 1 sinon 0 : 
-si{Vertice 5, Vertice 1} in E ecrire 1 sinon 0 : 
-si{Vertice 5, Vertice 2} in E ecrire 1 sinon 0 : 
-si{Vertice 5, Vertice 3} in E ecrire 1 sinon 0 : 
-si{Vertice 5, Vertice 4} in E ecrire 1 sinon 0 : 
-si{Vertice 5, Vertice 5} in E ecrire 1 sinon 0 : Its Not a completed graph
+0 1 1 
+1 0 1 
+1 1 0 
+Enter the type of graph : <-----------Its a cycle graph----------->
+Enter the type of graph : <---------Its a compeleted graph--------->
