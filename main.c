@@ -8,9 +8,7 @@ int main(){
     char graph_type[10];
     char type_one[10] = "cycle";
     char type_two[10] = "compeleted";
-    //printf("Enter the number of vertices (n): ");
     scanf("%d",&n);
-    //printf("Enter the number of edges (m): ");
     scanf("%d", &m);
     int** arr = (int**)malloc(n * sizeof(int*));
     for (int i = 0; i < n; i++) {
@@ -18,7 +16,6 @@ int main(){
     }
     registre_graph(n,m,arr);
     print_graph(n,m,arr);
-    //printf("Enter the type of graph : \n");
     scanf("%s",graph_type);
     int result0 = strcmp(type_one,graph_type);
     if (result0 == 0){
@@ -29,7 +26,6 @@ int main(){
             printf("<-----------Its Not a cycle graph----------->\n");
         }
     }
-    //printf("Enter the type of graph : \n");
     scanf("%s",graph_type);
     int result1 = strcmp(type_two,graph_type);
     if (result1 == 0){
