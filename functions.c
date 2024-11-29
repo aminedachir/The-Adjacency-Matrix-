@@ -38,8 +38,6 @@ bool is_compeleted_graph(int n,int m,int **arr){
     for (int i=0;i<n;i++){
         int s=0;
         for(int j=0;j<n;j++){
-                //printf("\nsi{Vertice %d, Vertice %d} in E ecrire 1 sinon 0 : ",i+1,j+1);
-                //scanf("%d",&arr[i][j]);
                 if (arr[i][j] == 1){
                     s++;
                 }
