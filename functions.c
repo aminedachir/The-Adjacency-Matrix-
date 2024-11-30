@@ -3,7 +3,6 @@
 int n,m,x;
 void registre_graph(int n,int m,int **arr){
     for (int i=0;i<n;i++){
-        //printf("Give me the %d line in your matrix : ",i+1);
         for(int j=0;j<m;j++){
             scanf("%d ",&arr[i][j]);
         }

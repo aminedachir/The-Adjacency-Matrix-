@@ -6,8 +6,8 @@
 int main(){
     int n,m;
     char graph_type[10];
-    char type_one[10] = "cycle";
-    char type_two[10] = "compeleted";
+    char type_one[15] = "undirected";
+    char type_two[10] = "directed";
     scanf("%d",&n);
     scanf("%d", &m);
     int** arr = (int**)malloc(n * sizeof(int*));
@@ -17,24 +17,28 @@ int main(){
     registre_graph(n,m,arr);
     print_graph(n,m,arr);
     scanf("%s",graph_type);
-    int result0 = strcmp(type_one,graph_type);
-    if (result0 == 0){
+    int result = strcmp(graph_type,type_one);
+    int result_two = strcmp(graph_type,type_two);
+    if (result == 0)
+    {
         if (is_cycle_graph(n,m,arr)){
-            printf("<-----------Its a cycle graph----------->\n");
-        }
+        printf("<-----------Its a cycle graph----------->\n");
+            }
         else{
             printf("<-----------Its Not a cycle graph----------->\n");
         }
-    }
-    scanf("%s",graph_type);
-    int result1 = strcmp(type_two,graph_type);
-    if (result1 == 0){
         if (is_compeleted_graph(n,m,arr)){
             printf("<---------Its a compeleted graph--------->\n");
         }
         else{
             printf("<---------Its Not a completed graph--------->\n");
         }
+    }
+    else if (result_two == 0)
+    {
+        printf("soon\n");
+    }else{
+        printf("invalid type of graph must be directed or undirected\n");
     }
     return 0;
 }
