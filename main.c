@@ -13,7 +13,7 @@ int main(){
     }
     registre_graph(n,m,arr);
     print_graph(n,m,arr);
-    if (is_undirected(n,arr))
+    if (is_undirected_graph(n,arr))
     {
         if (is_cycle_graph(n,m,arr)){
         printf("<-----------Its a cycle graph----------->\n");

@@ -16,7 +16,7 @@ void print_graph(int n,int m,int **arr){
         printf("\n");
     }
 }
-bool is_undirected(int n,int **arr){
+bool is_undirected_graph(int n,int **arr){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[i][j] != arr[j][i]){
