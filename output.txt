@@ -1,5 +1,4 @@
-0 1 1 
-1 0 1 
-1 1 0 
-<-----------Its a cycle graph----------->
-<---------Its a compeleted graph--------->
+0 1 0 
+0 0 1 
+1 0 0 
+directed graph

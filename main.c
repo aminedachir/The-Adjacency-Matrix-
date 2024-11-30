@@ -5,9 +5,6 @@
 #include "functions.c"
 int main(){
     int n,m;
-    char graph_type[10];
-    char type_one[15] = "undirected";
-    char type_two[10] = "directed";
     scanf("%d",&n);
     scanf("%d", &m);
     int** arr = (int**)malloc(n * sizeof(int*));
@@ -16,10 +13,7 @@ int main(){
     }
     registre_graph(n,m,arr);
     print_graph(n,m,arr);
-    scanf("%s",graph_type);
-    int result = strcmp(graph_type,type_one);
-    int result_two = strcmp(graph_type,type_two);
-    if (result == 0)
+    if (is_undirected(n,arr))
     {
         if (is_cycle_graph(n,m,arr)){
         printf("<-----------Its a cycle graph----------->\n");
@@ -33,12 +27,8 @@ int main(){
         else{
             printf("<---------Its Not a completed graph--------->\n");
         }
-    }
-    else if (result_two == 0)
-    {
-        printf("soon\n");
-    }else{
-        printf("invalid type of graph must be directed or undirected\n");
+    } else{
+        printf("directed graph\n");
     }
     return 0;
 }
