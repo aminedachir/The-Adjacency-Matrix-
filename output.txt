@@ -1,4 +1,17 @@
-0 1 0 
-0 0 1 
-1 0 0 
-directed graph
+0 1 1 0 0 
+1 0 0 1 1 
+1 0 0 1 0 
+0 1 1 0 1 
+0 1 0 1 0 
+<-----------undirected graph----------->
+<-----------Its Not a cycle graph----------->
+<---------Its Not a completed graph--------->
+<---------Its Not a regular graph--------->
+<---------Its Not a null graph--------->
+<---------Its Not a Trivial graph--------->
+<--------------The complementary of graph is ----------->
+0 0 0 1 1 
+0 0 1 0 0 
+0 1 0 0 1 
+1 0 0 0 0 
+1 0 1 0 0 
