@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-int n,m,x;
+int n,m;
 void registre_graph(int n,int **arr){
     for (int i=0;i<n;i++){
         for(int j=0;j<n;j++){
